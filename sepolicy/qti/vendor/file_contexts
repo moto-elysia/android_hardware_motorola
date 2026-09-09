@@ -139,6 +139,9 @@
 /vendor/bin/init\.oem\.fingerprint\.overlay\.sh    u:object_r:vendor_init_fingerprint_exec:s0
 /vendor/bin/init\.oem\.fingerprint\.sh             u:object_r:vendor_init_fingerprint_exec:s0
 /vendor/bin/init\.oem\.hw\.sh                      u:object_r:vendor_init_hw_exec:s0
+/(vendor|system/vendor)/bin/pstore_annotate.sh  u:object_r:apanic_exec:s0
+/(vendor|system/vendor)/bin/init.mmi.display.sh              u:object_r:init_display_exec:s0
+/(vendor|system/vendor)/bin/init.mmi.block_perm.sh           u:object_r:init_block_perm_exec:s0
 
 # Vibrator
 /dev/qcom_haptic    u:object_r:aac_richtap_dev_device:s0
