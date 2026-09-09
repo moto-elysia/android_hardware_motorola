@@ -1,2 +1,4 @@
 hal_client_domain(hal_audio_default, hal_health);
 allow hal_audio_default fwk_sensor_hwservice:hwservice_manager find;
+hal_client_domain(hal_audio_default, hal_aidl_dms)
+get_prop(hal_audio_default, vendor_mot_dolby_prop)

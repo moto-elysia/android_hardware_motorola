@@ -1,3 +1,7 @@
 # MotCamera3
 get_prop(platform_app, audio_config_prop)
 get_prop(platform_app, vendor_audio_prop)
+
+# Dolby
+hal_client_domain(platform_app, hal_aidl_dms)
+get_prop(platform_app, vendor_mot_dolby_prop)

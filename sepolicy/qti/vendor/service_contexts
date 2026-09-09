@@ -7,3 +7,7 @@ com.motorola.hardware.biometric.fingerprint.IMotoFingerPrint/default    u:object
 
 # Sensors
 motorola.hardware.sensors.ISensorExt/default    u:object_r:hal_sensorext_service:s0
+
+# Dolby
+vendor.dolby.dms.IDms/default u:object_r:hal_aidl_dms_service:s0
+android.hardware.media.c2.IComponentStore/default9 u:object_r:hal_codec2_service:s0
