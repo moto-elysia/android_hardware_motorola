@@ -47,6 +47,8 @@
 /mnt/vendor/persist/factory/audio(/.*)?                         u:object_r:vendor_persist_audio_file:s0
 /vendor/bin/hw/motorola\.hardware\.audio@2\.0-service           u:object_r:hal_audio_default_exec:s0
 /vendor/bin/hw/motorola\.hardware\.audio\.adspd@1\.0-service    u:object_r:hal_audio_default_exec:s0
+/data/vendor/audiox(/.*)?                   u:object_r:vendor_v4a_audio_data_file:s0
+/(vendor|system/vendor)/bin/init\.v4a\.sh   u:object_r:vendor_qti_init_shell_exec:s0
 
 # Camera
 /data/vendor/misc/imager                                                                    u:object_r:vendor_camera_data_file:s0

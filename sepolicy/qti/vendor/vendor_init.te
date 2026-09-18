@@ -6,3 +6,7 @@ set_prop(vendor_init, vendor_mot_hw_prop)
 set_prop(vendor_init, vendor_nfc_prop)
 set_prop(vendor_init, vendor_ssr_prop)
 set_prop(vendor_init, vendor_mot_dolby_prop)
+
+# ViPER4Android AIDL shared-memory files.
+allow vendor_init vendor_v4a_audio_data_file:dir create_dir_perms;
+allow vendor_init vendor_v4a_audio_data_file:file create_file_perms;
